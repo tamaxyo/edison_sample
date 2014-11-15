@@ -18,6 +18,6 @@ var fn = function() {
   x.writeReg(char('0x08'),  char('0xAA'))
   x.writeReg(char('0x04'),  val)
   x.writeReg(char('0x02'),  val)
+  setTimeout(fn, 1000)
 };
 fn();
-
