@@ -15,4 +15,4 @@ var print = function() {
   setTimeout(print, 1000);
 }
 
-
+print();
