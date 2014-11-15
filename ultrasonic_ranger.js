@@ -13,7 +13,7 @@ var print = function() {
     return
   }
   cnt++;
-  console.log(x.read());
+  console.log(pwm5.read());
   setTimeout(print, 1000);
 }
 
