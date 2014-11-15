@@ -1,3 +1,5 @@
+console.log("start")
+
 var m = require('mraa');
 
 var x = new m.Gpio(5);
