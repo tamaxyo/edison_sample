@@ -20,7 +20,7 @@ var fn = function() {
   if(danger != 0 && !advertising) {
     console.log("danger!");
     major = 1;
-    advertise = true;
+    advertising = true;
     advertise();
   } else if(danger == 0 && advertising) {
     console.log("become safe");
