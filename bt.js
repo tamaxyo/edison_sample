@@ -25,7 +25,7 @@ var fn = function() {
   } else if(danger == 0 && advertising) {
     console.log("become safe");
     major = 0;
-    advertise = false;
+    advertising = false;
     advertise();
   }
   setTimeout(fn, 100);
