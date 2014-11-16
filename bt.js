@@ -6,7 +6,7 @@ var power = -59;
 
 var m = require('mraa');
 var d = new m.Gpio(8);
-d.dir(m.DIR_OUT);
+d.dir(m.DIR_IN);
 
 var advertising = false;
 
