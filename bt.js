@@ -14,7 +14,6 @@ var advertise = function() {
   b.startAdvertising(uuid, major, minor, power);
 }
 
-advertise();
 var fn = function() {
   var danger = d.read();
   console.log("danger: ", danger);
@@ -32,3 +31,5 @@ var fn = function() {
   setTimeout(fn, 100);
 }
 
+advertise();
+fn();
