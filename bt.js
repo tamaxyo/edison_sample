@@ -15,6 +15,8 @@ var advertise = function() {
   b.startAdvertising(uuid, major, minor, power);
 }
 
+advertise();
+
 var fn = function() {
   var danger = d.read();
   if(danger == 1 && !advertising) {
